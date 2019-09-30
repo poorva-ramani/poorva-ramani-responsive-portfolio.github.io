@@ -1,16 +1,15 @@
 /* header css */
-.body {
+
+body {
     background-image: url("./../img/fishnets-and-hearts.png");
     background-repeat: repeat;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: #777777;
 }
 
 .headline {
     background-color: #4aaaa5;
     -webkit-box-shadow: 1px 1px 2px #666666;
-    margin: 0;
-    padding: 20px;
+    padding: 15px;
 }
 
 h2, h4 {
@@ -25,20 +24,23 @@ a:hover, a:active {
 }
 
 /* main container css */
+
 .section-content {
     background-color: white;
-    /* height: 100%; */
+    width: 920px;
     border: 1px solid #cccccc;
     color: #777777;
 }
 
 /* About Me page css */
+
 .portfolio-image {
     width: 170px;
     height: 200px;
 }
 
 /* portfolio page css */
+
 .image-label {
     background-color: #4aaaa5;
     color: white;
@@ -58,10 +60,9 @@ a:hover, a:active {
     background-color: #666666;
     padding: 12px;
     font-size: 12px;
-    display: flex;
-    justify-content: center;
     color: white;
-    flex-shrink: none;
+    bottom: 0;
+    text-align: center;
 }
 
 /* These rules take effect when the browser's width
@@ -73,8 +74,7 @@ a:hover, a:active {
         padding: 10px;
         -webkit-box-shadow: 1px 1px 2px #666666;
     }
-
     .section-content {
-    min-width: 300px;
+        min-width: 300px;
     }
 }
